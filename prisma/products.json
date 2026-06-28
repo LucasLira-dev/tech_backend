@@ -1,0 +1,1090 @@
+{
+  "categories": [
+    {
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "description": "Smartphones e celulares de última geração",
+      "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+    },
+    {
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Notebooks para trabalho, estudo e jogos",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400"
+    },
+    {
+      "name": "Desktops",
+      "slug": "desktops",
+      "description": "Computadores de mesa e all-in-one",
+      "imageUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400"
+    },
+    {
+      "name": "Tablets",
+      "slug": "tablets",
+      "description": "Tablets para produtividade e entretenimento",
+      "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400"
+    },
+    {
+      "name": "Smartwatches",
+      "slug": "smartwatches",
+      "description": "Relógios inteligentes e fitness trackers",
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+    },
+    {
+      "name": "Áudio",
+      "slug": "audio",
+      "description": "Fones, caixas de som e equipamentos de áudio",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+    },
+    {
+      "name": "Gaming",
+      "slug": "gaming",
+      "description": "Consoles, controles e acessórios para jogos",
+      "imageUrl": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=400"
+    },
+    {
+      "name": "Monitores",
+      "slug": "monitores",
+      "description": "Monitores para trabalho e jogos",
+      "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+    },
+    {
+      "name": "Rede",
+      "slug": "rede",
+      "description": "Roteadores, switches e equipamentos de rede",
+      "imageUrl": "https://images.unsplash.com/photo-1606904825846-74e4f6a91339?w=400"
+    },
+    {
+      "name": "Acessórios",
+      "slug": "acessorios",
+      "description": "Acessórios para computadores e dispositivos",
+      "imageUrl": "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=400"
+    },
+    {
+      "name": "Casa Inteligente",
+      "slug": "casa-inteligente",
+      "description": "Dispositivos para automação residencial",
+      "imageUrl": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=400"
+    },
+    {
+      "name": "Câmeras",
+      "slug": "cameras",
+      "description": "Câmeras fotográficas, filmadoras e acessórios",
+      "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400"
+    },
+    {
+      "name": "Armazenamento",
+      "slug": "armazenamento",
+      "description": "HDs, SSDs e armazenamento externo",
+      "imageUrl": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400"
+    },
+    {
+      "name": "Componentes PC",
+      "slug": "componentes-pc",
+      "description": "Peças para montagem e upgrade de computadores",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 16 Pro Max",
+      "slug": "iphone-16-pro-max",
+      "description": "Apple iPhone 16 Pro Max com chip A18 Pro, tela Super Retina XDR de 6.9 polegadas, câmera de 48MP com zoom óptico 5x e bateria de longa duração. Capacidade de 256GB.",
+      "price": 9499.90,
+      "stock": 45,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Samsung Galaxy S25 Ultra",
+      "slug": "samsung-galaxy-s25-ultra",
+      "description": "Samsung Galaxy S25 Ultra com processador Snapdragon 8 Elite, tela Dynamic AMOLED 2X de 6.9\", S Pen integrado, câmera de 200MP e bateria de 5000mAh.",
+      "price": 8999.90,
+      "stock": 38,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Google Pixel 9 Pro",
+      "slug": "google-pixel-9-pro",
+      "description": "Google Pixel 9 Pro com chip Tensor G4, tela LTPO OLED de 6.7\", câmera tripla de 50MP com IA generativa e 7 anos de atualizações.",
+      "price": 7499.90,
+      "stock": 30,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600"],
+      "featured": false
+    },
+    {
+      "name": "OnePlus 13",
+      "slug": "oneplus-13",
+      "description": "OnePlus 13 com Snapdragon 8 Elite, tela LTPO AMOLED de 6.82\", câmera Hasselblad de 50MP e carregamento SUPERVOOC de 100W.",
+      "price": 5999.90,
+      "stock": 25,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Xiaomi 15 Ultra",
+      "slug": "xiaomi-15-ultra",
+      "description": "Xiaomi 15 Ultra com Snapdragon 8 Elite, tela AMOLED de 6.73\", câmera Leica de 200MP e bateria de 6000mAh.",
+      "price": 5499.90,
+      "stock": 40,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Motorola Edge 50 Pro",
+      "slug": "motorola-edge-50-pro",
+      "description": "Motorola Edge 50 Pro com Snapdragon 7 Gen 3, tela pOLED de 6.7\", câmera de 50MP com estabilização OIS e carregamento turbo de 125W.",
+      "price": 3999.90,
+      "stock": 50,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Samsung Galaxy Z Flip 6",
+      "slug": "samsung-galaxy-z-flip-6",
+      "description": "Samsung Galaxy Z Flip 6 dobrável compacto, Snapdragon 8 Gen 3, tela principal de 6.7\" e tela externa de 3.4\".",
+      "price": 7999.90,
+      "stock": 20,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1628744876499-8399afd48c42?w=600"],
+      "featured": true
+    },
+    {
+      "name": "iPhone 16",
+      "slug": "iphone-16",
+      "description": "Apple iPhone 16 com chip A18, tela Super Retina XDR de 6.1\", sistema de câmera dupla de 48MP e botão Camera Control.",
+      "price": 6999.90,
+      "stock": 60,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"],
+      "featured": false
+    },
+    {
+      "name": "MacBook Pro 16\" M4 Max",
+      "slug": "macbook-pro-16-m4-max",
+      "description": "Apple MacBook Pro 16 polegadas com chip M4 Max, 36GB de RAM unificada, 1TB SSD, tela Liquid Retina XDR e bateria de até 24 horas.",
+      "price": 27999.90,
+      "stock": 15,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Dell XPS 16 (2025)",
+      "slug": "dell-xps-16-2025",
+      "description": "Dell XPS 16 com Intel Core Ultra 9, 32GB RAM, 1TB SSD, tela OLED 4K de 16 polegadas e design premium em alumínio.",
+      "price": 18999.90,
+      "stock": 12,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+      "slug": "lenovo-thinkpad-x1-carbon-gen-12",
+      "description": "Lenovo ThinkPad X1 Carbon com Intel Core Ultra 7, 16GB RAM, 512GB SSD, tela IPS de 14\" 2.8K, teclado legendary e certificação MIL-STD.",
+      "price": 14999.90,
+      "stock": 18,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS ROG Zephyrus G16",
+      "slug": "asus-rog-zephyrus-g16",
+      "description": "ASUS ROG Zephyrus G16 com Intel Core Ultra 9, NVIDIA RTX 4090, 32GB RAM, tela OLED de 16\" 240Hz. Gaming premium.",
+      "price": 22999.90,
+      "stock": 8,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1603302576839-3773cc2c7c58?w=600"],
+      "featured": true
+    },
+    {
+      "name": "HP Spectre x360 16",
+      "slug": "hp-spectre-x360-16",
+      "description": "HP Spectre x360 2 em 1 com Intel Core Ultra 7, 16GB RAM, 1TB SSD, tela OLED touch de 16\" e caneta stylus incluída.",
+      "price": 13999.90,
+      "stock": 14,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=600"],
+      "featured": false
+    },
+    {
+      "name": "MacBook Air 15\" M4",
+      "slug": "macbook-air-15-m4",
+      "description": "Apple MacBook Air 15 polegadas com chip M4, 16GB RAM, 512GB SSD, tela Liquid Retina e design ultraleve de 1.51kg.",
+      "price": 12999.90,
+      "stock": 35,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Acer Predator Helios 18",
+      "slug": "acer-predator-helios-18",
+      "description": "Acer Predator Helios 18 com Intel Core i9-14900HX, NVIDIA RTX 4080, 32GB RAM, tela Mini LED de 18\" 250Hz.",
+      "price": 19999.90,
+      "stock": 6,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600"],
+      "featured": false
+    },
+    {
+      "name": "iMac 24\" M4",
+      "slug": "imac-24-m4",
+      "description": "Apple iMac 24 polegadas com chip M4, 16GB RAM, 512GB SSD, tela 4.5K Retina em 7 cores coloridas. All-in-one perfeito.",
+      "price": 14999.90,
+      "stock": 20,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Mac Mini M4 Pro",
+      "slug": "mac-mini-m4-pro",
+      "description": "Apple Mac Mini com chip M4 Pro, 24GB RAM, 512GB SSD. Compacto e poderoso para profissionais.",
+      "price": 11999.90,
+      "stock": 25,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Dell Inspiron 3030",
+      "slug": "dell-inspiron-3030",
+      "description": "Dell Inspiron 3030 desktop com Intel Core i7-14700, 16GB RAM, 1TB SSD, ideal para produtividade doméstica.",
+      "price": 5999.90,
+      "stock": 30,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Lenovo Legion Tower 7i",
+      "slug": "lenovo-legion-tower-7i",
+      "description": "Lenovo Legion Tower 7i gamer com Intel Core i9-14900K, NVIDIA RTX 4080, 32GB DDR5, 1TB SSD NVMe.",
+      "price": 19999.90,
+      "stock": 5,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"],
+      "featured": true
+    },
+    {
+      "name": "HP Pavilion All-in-One 27",
+      "slug": "hp-pavilion-all-in-one-27",
+      "description": "HP Pavilion All-in-One 27\" com Intel Core i5, 8GB RAM, 512GB SSD, tela Full HD IPS e webcam integrada.",
+      "price": 5499.90,
+      "stock": 22,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600"],
+      "featured": false
+    },
+    {
+      "name": "iPad Pro 13\" M4",
+      "slug": "ipad-pro-13-m4",
+      "description": "Apple iPad Pro 13 polegadas com chip M4, tela Ultra Retina XDR tandem OLED, 256GB, suporte a Apple Pencil Pro.",
+      "price": 12999.90,
+      "stock": 28,
+      "category": "tablets",
+      "images": ["https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Samsung Galaxy Tab S10 Ultra",
+      "slug": "samsung-galaxy-tab-s10-ultra",
+      "description": "Samsung Galaxy Tab S10 Ultra com tela Dynamic AMOLED 2X de 14.6\", MediaTek Dimensity 9300+, 256GB, S Pen incluído.",
+      "price": 9999.90,
+      "stock": 18,
+      "category": "tablets",
+      "images": ["https://images.unsplash.com/photo-1561154464-82e9aab32f4d?w=600"],
+      "featured": true
+    },
+    {
+      "name": "iPad Air 13\" M3",
+      "slug": "ipad-air-13-m3",
+      "description": "Apple iPad Air 13 polegadas com chip M3, 128GB, tela Liquid Retina e design fino e leve.",
+      "price": 7999.90,
+      "stock": 32,
+      "category": "tablets",
+      "images": ["https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Xiaomi Pad 7 Pro",
+      "slug": "xiaomi-pad-7-pro",
+      "description": "Xiaomi Pad 7 Pro com tela LCD de 12.4\" 144Hz, Snapdragon 8s Gen 3, 8GB RAM, 256GB e suporte a stylus.",
+      "price": 3999.90,
+      "stock": 40,
+      "category": "tablets",
+      "images": ["https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Apple Watch Ultra 3",
+      "slug": "apple-watch-ultra-3",
+      "description": "Apple Watch Ultra 3 com caixa em titânio de 49mm, tela Always-On Retina, GPS duplo, resistência a 100m e bateria de até 36h.",
+      "price": 8999.90,
+      "stock": 22,
+      "category": "smartwatches",
+      "images": ["https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Samsung Galaxy Watch 7 Ultra",
+      "slug": "samsung-galaxy-watch-7-ultra",
+      "description": "Samsung Galaxy Watch 7 Ultra com caixa de titânio, GPS dual-freq, monitoramento de saúde avançado e bateria de 60h.",
+      "price": 5499.90,
+      "stock": 28,
+      "category": "smartwatches",
+      "images": ["https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Apple Watch SE 3",
+      "slug": "apple-watch-se-3",
+      "description": "Apple Watch SE 3 com chip S10, tela OLED de 40mm, monitoramento de saúde, GPS e resistência à água.",
+      "price": 2999.90,
+      "stock": 45,
+      "category": "smartwatches",
+      "images": ["https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Garmin Venu 4",
+      "slug": "garmin-venu-4",
+      "description": "Garmin Venu 4 com tela AMOLED de 1.4\", GPS multi-banda, monitoramento de saúde 24/7 e bateria de até 10 dias.",
+      "price": 3999.90,
+      "stock": 20,
+      "category": "smartwatches",
+      "images": ["https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Sony WH-1000XM6",
+      "slug": "sony-wh-1000xm6",
+      "description": "Fones Sony WH-1000XM6 com cancelamento de ruído líder da indústria, áudio Hi-Res, bateria de 40h e design confortável.",
+      "price": 2499.90,
+      "stock": 50,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Apple AirPods Pro 3",
+      "slug": "apple-airpods-pro-3",
+      "description": "Apple AirPods Pro 3 com cancelamento de ruído adaptativo, áudio espacial, USB-C e bateria de até 6h com estojo.",
+      "price": 2199.90,
+      "stock": 60,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Samsung Galaxy Buds 3 Pro",
+      "slug": "samsung-galaxy-buds-3-pro",
+      "description": "Samsung Galaxy Buds 3 Pro com cancelamento de ruído ativo, áudio Hi-Fi 24bit, IP57 e design canal aberto.",
+      "price": 1199.90,
+      "stock": 45,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600"],
+      "featured": false
+    },
+    {
+      "name": "JBL Charge 6",
+      "slug": "jbl-charge-6",
+      "description": "Caixa de som JBL Charge 6 portátil, resistente à água IP67, som JBL Pro Sound potente e bateria de 24 horas.",
+      "price": 1299.90,
+      "stock": 35,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Sony SRS-XB432",
+      "slug": "sony-srs-xb432",
+      "description": "Caixa de som Sony Extra Bass portátil com LED party, resistente à água IP67, bateria de 24h e wireless party chain.",
+      "price": 999.90,
+      "stock": 28,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Bose QuietComfort Ultra",
+      "slug": "bose-quietcomfort-ultra",
+      "description": "Fones Bose QuietComfort Ultra com cancelamento de ruído world-class, áudio imersivo Spatial Audio e bateria de 24h.",
+      "price": 2999.90,
+      "stock": 18,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600"],
+      "featured": true
+    },
+    {
+      "name": "PlayStation 5 Pro",
+      "slug": "playstation-5-pro",
+      "description": "Sony PlayStation 5 Pro com GPU customizada, 2TB SSD, ray tracing avançado, 8K e 120fps. Inclui controle DualSense.",
+      "price": 6499.90,
+      "stock": 15,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Xbox Series X 2TB",
+      "slug": "xbox-series-x-2tb",
+      "description": "Microsoft Xbox Series X com 2TB SSD, 12 teraflops, 4K 120fps, ray tracing e compatibilidade com milhares de jogos.",
+      "price": 4999.90,
+      "stock": 22,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Nintendo Switch 2",
+      "slug": "nintendo-switch-2",
+      "description": "Nintendo Switch 2 com tela LCD de 8 polegadas 1080p, processador NVIDIA custom, Joy-Con magnético e retrocompatibilidade.",
+      "price": 3999.90,
+      "stock": 30,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=600"],
+      "featured": true
+    },
+    {
+      "name": "DualSense Edge",
+      "slug": "dualsense-edge",
+      "description": "Controle PS5 DualSense Edge com gatilhos triggeáveis, alavancas ajustáveis, botões traseiros e construção premium.",
+      "price": 1499.90,
+      "stock": 40,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Razer DeathAdder V3 Pro",
+      "slug": "razer-deathadder-v3-pro",
+      "description": "Mouse gamer Razer DeathAdder V3 Pro com sensor Focus Pro 30K, switches ópticos Gen-3 e bateria de 90h.",
+      "price": 699.90,
+      "stock": 55,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Logitech G Pro X Superlight 2",
+      "slug": "logitech-g-pro-x-superlight-2",
+      "description": "Mouse Logitech G Pro X Superlight 2 com HERO 2 sensor de 32000 DPI, 60g ultraleve e bateria de 95h.",
+      "price": 899.90,
+      "stock": 48,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS ROG Swift PG32UCDM",
+      "slug": "asus-rog-swift-pg32ucdm",
+      "description": "Monitor gamer ASUS ROG Swift 32\" OLED 4K 240Hz, tempo de resposta 0.03ms, G-Sync e DisplayHDR True Black 400.",
+      "price": 12999.90,
+      "stock": 8,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Samsung Odyssey OLED G8 34\"",
+      "slug": "samsung-odyssey-oled-g8-34",
+      "description": "Monitor Samsung Odyssey OLED G8 34\" ultrawide, 3440x1440, 175Hz, 0.03ms, Smart Hub integrado.",
+      "price": 7999.90,
+      "stock": 12,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Dell UltraSharp U2724D",
+      "slug": "dell-ultrasharp-u2724d",
+      "description": "Monitor Dell UltraSharp 27\" QHD IPS, 120Hz, USB-C hub com 90W PD, 100% sRGB e design sem bordas.",
+      "price": 3999.90,
+      "stock": 20,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=600"],
+      "featured": false
+    },
+    {
+      "name": "LG 27UK850-W",
+      "slug": "lg-27uk850-w",
+      "description": "Monitor LG 27\" 4K UHD IPS, HDR10, USB-C, AMD FreeSync, 5ms e 2x HDMI 2.0.",
+      "price": 2999.90,
+      "stock": 25,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS ProArt PA279CRV",
+      "slug": "asus-proart-pa279crv",
+      "description": "Monitor ASUS ProArt 27\" 4K IPS, calibrado de fábrica ΔE<2, USB-C 96W PD, 100% sRGB/DCI-P3 para criadores.",
+      "price": 5499.90,
+      "stock": 10,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1589782182716-a49132685eb7?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS ROG Rapture GT-BE98",
+      "slug": "asus-rog-rapture-gt-be98",
+      "description": "Roteador ASUS ROG Rapture WiFi 7, tri-band, 8 x 40GbE, Game Boost, compatível com 300+ dispositivos.",
+      "price": 4999.90,
+      "stock": 10,
+      "category": "rede",
+      "images": ["https://images.unsplash.com/photo-1606904825846-74e4f6a91339?w=600"],
+      "featured": false
+    },
+    {
+      "name": "TP-Link Archer BE800",
+      "slug": "tp-link-archer-be800",
+      "description": "Roteador TP-Link WiFi 7 BE19000, tri-band, 2.5G WAN, EasyMesh compatível e TP-Link HomeShield.",
+      "price": 1999.90,
+      "stock": 35,
+      "category": "rede",
+      "images": ["https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Ubiquiti UniFi Dream Machine Pro",
+      "slug": "ubiquiti-unifi-dream-machine-pro",
+      "description": "UniFi Dream Machine Pro com gateway, switch 8-port, Protect NVR e Identity Enterprise em um só dispositivo.",
+      "price": 7999.90,
+      "stock": 8,
+      "category": "rede",
+      "images": ["https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Logitech MX Master 3S",
+      "slug": "logitech-mx-master-3s",
+      "description": "Mouse Logitech MX Master 3S com sensor de 8000 DPI, scroll MagSpeed, USB-C, Bluetooth e Flow multi-dispositivo.",
+      "price": 549.90,
+      "stock": 60,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Keychron Q1 Max",
+      "slug": "keychron-q1-max",
+      "description": "Teclado mecânico Keychron Q1 Max wireless com hot-swap, gasket mount, backlight RGB e frame de alumínio CNC.",
+      "price": 1299.90,
+      "stock": 30,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Logitech MX Keys S",
+      "slug": "logitech-mx-keys-s",
+      "description": "Teclado Logitech MX Keys S com iluminação inteligente, conexão Bluetooth/USB, Flow multi-dispositivo e bateria recarregável.",
+      "price": 699.90,
+      "stock": 45,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Apple Magic Trackpad",
+      "slug": "apple-magic-trackpad",
+      "description": "Apple Magic Trackpad com superfície Multi-Tooth, Force Touch, USB-C e design unibody de alumínio.",
+      "price": 1199.90,
+      "stock": 35,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Anker 737 Power Bank 24000mAh",
+      "slug": "anker-737-power-bank",
+      "description": "Power Bank Anker 737 com 24000mAh, 140W PD, display inteligente, 2x USB-C e 1x USB-A. Carga rápida para laptops.",
+      "price": 599.90,
+      "stock": 50,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Samsung T7 Shield 2TB",
+      "slug": "samsung-t7-shield-2tb",
+      "description": "SSD externo Samsung T7 Shield 2TB, IP65, resistente a quedas de 3m, USB 3.2 Gen2 com 1050MB/s de leitura.",
+      "price": 1099.90,
+      "stock": 40,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Hub USB-C Satechi 7 em 1",
+      "slug": "hub-usb-c-satechi-7-em-1",
+      "description": "Hub Satechi 7 em 1 USB-C com HDMI 4K, USB-A 3.0, SD/microSD, USB-C PD 100W e Ethernet Gigabit.",
+      "price": 399.90,
+      "stock": 55,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Amazon Echo Show 15",
+      "slug": "amazon-echo-show-15",
+      "description": "Amazon Echo Show 15 com tela 15.6\" Full HD, Alexa, widget personalizáveis, speaker estéreo e montagem na parede.",
+      "price": 2499.90,
+      "stock": 25,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Google Nest Hub Max",
+      "slug": "google-nest-hub-max",
+      "description": "Google Nest Hub Max com tela 10\" HD, assistente Google, câmera Nest, speaker 30W e controle de casa inteligente.",
+      "price": 1999.90,
+      "stock": 20,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Philips Hue Starter Kit 4L",
+      "slug": "philips-hue-starter-kit-4l",
+      "description": "Kit inicial Philips Hue com 4 lâmpadas inteligentes BR30, bridge e suporte a 16 milhões de cores e 50000 tons brancos.",
+      "price": 1299.90,
+      "stock": 30,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Ring Video Doorbell Pro 2",
+      "slug": "ring-video-doorbell-pro-2",
+      "description": "Ring Video Doorbell Pro 2 com visão 1536p HD, detecção de movimento 3D, áudio bidirecional e Night Vision.",
+      "price": 1499.90,
+      "stock": 18,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Sony A7 IV",
+      "slug": "sony-a7-iv",
+      "description": "Câmera Sony A7 IV full-frame com sensor de 33MP, processador BIONZ XR, gravação 4K 60fps, AF real-time e estabilização de 5 eixos.",
+      "price": 14999.90,
+      "stock": 12,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Canon EOS R6 Mark III",
+      "slug": "canon-eos-r6-mark-iii",
+      "description": "Câmera Canon EOS R6 III com sensor 24.2MP, DIGIC X, 4K 60fps, estabilização de 8 eixos, Wi-Fi e GPS.",
+      "price": 17999.90,
+      "stock": 8,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600"],
+      "featured": true
+    },
+    {
+      "name": "GoPro HERO13 Black",
+      "slug": "gopro-hero13-black",
+      "description": "GoPro HERO13 Black com vídeo 5.3K60, 27MP, HyperSmooth 7.0, 10m de profundidade e voice control.",
+      "price": 2499.90,
+      "stock": 35,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600"],
+      "featured": false
+    },
+    {
+      "name": "DJI Mini 4 Pro",
+      "slug": "dji-mini-4-pro",
+      "description": "Drone DJI Mini 4 Pro com 249g, câmera 4K/60fps, obstacle sensing omnidirecional, 34min de voo e O4 transmission.",
+      "price": 5999.90,
+      "stock": 10,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Fujifilm X-T50",
+      "slug": "fujifilm-x-t50",
+      "description": "Câmera Fujifilm X-T50 com sensor APS-C 40.2MP, processador X-Processor 5, 6.2K30 e film simulation.",
+      "price": 8999.90,
+      "stock": 15,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=600"],
+      "featured": false
+    },
+    {
+      "name": "WD Black SN850X 2TB NVMe",
+      "slug": "wd-black-sn850x-2tb",
+      "description": "SSD NVMe WD Black SN850X 2TB, PCIe Gen4, 7300MB/s leitura, 6600MB/s escrita, heatsink incluído.",
+      "price": 1299.90,
+      "stock": 40,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Samsung 990 EVO Plus 4TB",
+      "slug": "samsung-990-evo-plus-4tb",
+      "description": "SSD Samsung 990 EVO Plus 4TB, PCIe Gen5, 14500MB/s leitura, smart thermal control e 5 anos de garantia.",
+      "price": 2999.90,
+      "stock": 20,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Seagate Expansion Desktop 8TB",
+      "slug": "seagate-expansion-desktop-8tb",
+      "description": "HD externo Seagate Expansion Desktop 8TB, USB 3.0, plug and play, formato 3.5 polegadas.",
+      "price": 899.90,
+      "stock": 30,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "SanDisk Extreme Pro 1TB CFexpress",
+      "slug": "sandisk-extreme-pro-1tb-cfexpress",
+      "description": "Cartão SanDisk Extreme Pro CFexpress Tipo B 1TB, 2000MB/s leitura, 1400MB/s escrita, para câmeras profissionais.",
+      "price": 1999.90,
+      "stock": 15,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "NVIDIA GeForce RTX 5090",
+      "slug": "nvidia-geforce-rtx-5090",
+      "description": "Placa de vídeo NVIDIA RTX 5090 com 32GB GDDR7, Blackwell architecture, 4th gen RT cores e DLSS 4.",
+      "price": 12999.90,
+      "stock": 5,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": true
+    },
+    {
+      "name": "AMD Ryzen 9 9950X",
+      "slug": "amd-ryzen-9-9950x",
+      "description": "Processador AMD Ryzen 9 9950X com 16 núcleos/32 threads, Zen 5, 5.7GHz boost, 170W TDP e 64MB cache.",
+      "price": 4999.90,
+      "stock": 18,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Intel Core Ultra 9 285K",
+      "slug": "intel-core-ultra-9-285k",
+      "description": "Processador Intel Core Ultra 9 285K com 24 núcleos (8P+16E), 6GHz boost, Intel 20A e NPU integrado.",
+      "price": 4499.90,
+      "stock": 15,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Corsair Dominator Titanium 64GB DDR5",
+      "slug": "corsair-dominator-titanium-64gb-ddr5",
+      "description": "Memória RAM Corsair Dominator Titanium 64GB (2x32GB) DDR5-6400MHz, CL32, RGB e dissipador de alumínio.",
+      "price": 1999.90,
+      "stock": 22,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS ROG Strix X870E-E Gaming WiFi",
+      "slug": "asus-rog-strix-x870e-e-gaming-wifi",
+      "description": "Placa-mãe ASUS ROG Strix X870E-E com socket AM5, DDR5, PCIe 5.0, WiFi 7, 5x M.2 e供电 robusto de 18+2+1 fases.",
+      "price": 3999.90,
+      "stock": 12,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Corsair RM1000e 1000W 80+ Gold",
+      "slug": "corsair-rm1000e-1000w",
+      "description": "Fonte Corsair RM1000e 1000W 80+ Gold, totalmente modular, fan 135mm, LLP ready e 10 anos de garantia.",
+      "price": 899.90,
+      "stock": 25,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "NZXT H9 Flow",
+      "slug": "nzxt-h9-flow",
+      "description": "Gabinete NZXT H9 Flow mid-tower com painéis de vidro temperado, suporte a radiador 360mm, airflow otimizado e RGB.",
+      "price": 1299.90,
+      "stock": 18,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Cooler DeepCool AK620",
+      "slug": "cooler-deepcool-ak620",
+      "description": "Cooler DeepCool AK620 dual tower com 2 fans, 260W TDP, socket universal e design discreto.",
+      "price": 399.90,
+      "stock": 35,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "AirPods Max",
+      "slug": "airpods-max",
+      "description": "Apple AirPods Max com driver de 40mm, cancelamento de ruído ativo, áudio espacial, Digital Crown e 20h de bateria.",
+      "price": 4999.90,
+      "stock": 15,
+      "category": "audio",
+      "images": ["https://images.unsplash.com/photo-1625244724120-1fd1f3c15b9e?w=600"],
+      "featured": true
+    },
+    {
+      "name": "Xiaomi Redmi Note 14 Pro",
+      "slug": "xiaomi-redmi-note-14-pro",
+      "description": "Xiaomi Redmi Note 14 Pro com MediaTek Dimensity 7300, tela AMOLED 120Hz de 6.67\", câmera 200MP e bateria 5500mAh.",
+      "price": 2499.90,
+      "stock": 55,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS Zenfone 11 Ultra",
+      "slug": "asus-zenfone-11-ultra",
+      "description": "ASUS Zenfone 11 Ultra com Snapdragon 8 Gen 3, tela AMOLED 2K 144Hz, câmera 50MP gimbal e bateria 5500mAh.",
+      "price": 6499.90,
+      "stock": 22,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Framework Laptop 16",
+      "slug": "framework-laptop-16",
+      "description": "Framework Laptop 16 modular e reparável com AMD Ryzen 9, GPU removível, 32GB RAM e tela 16\" 2560x1600 165Hz.",
+      "price": 16999.90,
+      "stock": 8,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"],
+      "featured": false
+    },
+    {
+      "name": "MSI Titan 18 HX",
+      "slug": "msi-titan-18-hx",
+      "description": "MSI Titan 18 HX gamer com Intel Core i9-14900HX, RTX 4090, 64GB DDR5, tela Mini LED 4K 120Hz de 18\".",
+      "price": 29999.90,
+      "stock": 3,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1603302576839-3773cc2c7c58?w=600"],
+      "featured": true
+    },
+    {
+      "name": "HP Omen 35L",
+      "slug": "hp-omen-35l",
+      "description": "Desktop gamer HP Omen 35L com Intel Core i9-14900K, RTX 4080 Super, 32GB DDR5, 1TB SSD e RGB personalizável.",
+      "price": 14999.90,
+      "stock": 7,
+      "category": "desktops",
+      "images": ["https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"],
+      "featured": false
+    },
+    {
+      "name": "MSI GeForce RTX 4070 Ti SUPER",
+      "slug": "msi-geforce-rtx-4070-ti-super",
+      "description": "Placa de vídeo MSI RTX 4070 Ti SUPER com 16GB GDDR6X, Ada Lovelace, DLSS 3 e ray tracing de 3ª geração.",
+      "price": 5999.90,
+      "stock": 14,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "HyperX Cloud III Wireless",
+      "slug": "hyperx-cloud-iii-wireless",
+      "description": "Headset gamer HyperX Cloud III Wireless com driver de 53mm, DTS:X, 120h de bateria e microfone removível.",
+      "price": 899.90,
+      "stock": 40,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Elgato Stream Deck MK.2",
+      "slug": "elgato-stream-deck-mk2",
+      "description": "Elgato Stream Deck MK.2 com 15 teclas LCD programáveis, suporte a plugins, controle de streaming e produtividade.",
+      "price": 1099.90,
+      "stock": 25,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1616588589676-62b3d4ff6c51?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Eve Energy (Thread)",
+      "slug": "eve-energy-thread",
+      "description": "Eve Energy com Thread, monitoramento de energia em tempo real, controle por voz e timer programável. Apple HomeKit.",
+      "price": 399.90,
+      "stock": 30,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=600"],
+      "featured": false
+    },
+    {
+      "name": "DJI Pocket 3",
+      "slug": "dji-pocket-3",
+      "description": "DJI Pocket 3 com sensor 1\" CMOS, vídeo 4K/120fps, rotação de tela de 2\", ActiveTrack 6.0 e estabilização de 3 eixos.",
+      "price": 3499.90,
+      "stock": 18,
+      "category": "cameras",
+      "images": ["https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600"],
+      "featured": false
+    },
+    {
+      "name": "QD-OLED Samsung Odyssey G9 49\"",
+      "slug": "qd-oled-samsung-odyssey-g9-49",
+      "description": "Monitor ultrawide Samsung Odyssey G9 49\" QD-OLED, 5120x1440, 240Hz, 0.03ms, Smart Hub eDesign personalizável.",
+      "price": 14999.90,
+      "stock": 6,
+      "category": "monitores",
+      "images": ["https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"],
+      "featured": true
+    },
+    {
+      "name": "TP-Link Deco BE85 (3-pack)",
+      "slug": "tp-link-deco-be85-3pack",
+      "description": "Sistema mesh TP-Link Deco BE85 WiFi 7 tri-band, cobertura até 720m², 2.5G WAN e AI roaming.",
+      "price": 5999.90,
+      "stock": 8,
+      "category": "rede",
+      "images": ["https://images.unsplash.com/photo-1606904825846-74e4f6a91339?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Crucial T705 4TB NVMe",
+      "slug": "crucial-t705-4tb",
+      "description": "SSD Crucial T705 4TB PCIe Gen5 NVMe, 14500MB/s leitura, 12700MB/s escrita, heatsink de alumínio.",
+      "price": 3999.90,
+      "stock": 12,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "WD My Cloud EX2 Ultra 16TB",
+      "slug": "wd-my-cloud-ex2-ultra-16tb",
+      "description": "NAS WD My Cloud EX2 Ultra 16TB com RAID, processador dual-core, 2x Gigabit Ethernet e backup automático.",
+      "price": 6999.90,
+      "stock": 5,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "AMD Radeon RX 9070 XT",
+      "slug": "amd-radeon-rx-9070-xt",
+      "description": "Placa de vídeo AMD Radeon RX 9070 XT com 16GB GDDR6, RDNA 4, FSR 4 e ray tracing de 2ª geração.",
+      "price": 5499.90,
+      "stock": 10,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": true
+    },
+    {
+      "name": "G.Skill Trident Z5 Royal 32GB DDR5",
+      "slug": "gskill-trident-z5-royal-32gb-ddr5",
+      "description": "Memória G.Skill Trident Z5 Royal 32GB (2x16GB) DDR5-7200MHz, CL34, RGB e acabamento premium.",
+      "price": 899.90,
+      "stock": 28,
+      "category": "componentes-pc",
+      "images": ["https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Samsung 990 Pro 4TB NVMe",
+      "slug": "samsung-990-pro-4tb",
+      "description": "SSD Samsung 990 Pro 4TB PCIe Gen4 NVMe, 7450MB/s leitura, 6900MB/s escrita, V-NAND e 5 anos garantia.",
+      "price": 3499.90,
+      "stock": 18,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Apple iPhone SE 4",
+      "slug": "iphone-se-4",
+      "description": "Apple iPhone SE 4 com chip A18, tela OLED de 6.1\", câmera de 48MP, Face ID e design de bordas retas. O iPhone mais acessível.",
+      "price": 4499.90,
+      "stock": 65,
+      "category": "smartphones",
+      "images": ["https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600"],
+      "featured": false
+    },
+    {
+      "name": "ASUS Vivobook S 15 OLED",
+      "slug": "asus-vivobook-s-15-oled",
+      "description": "ASUS Vivobook S 15 com Intel Core Ultra 7, 16GB RAM, 512GB SSD, tela OLED 15.6\" 2.8K e design premium para produtividade.",
+      "price": 7999.90,
+      "stock": 22,
+      "category": "laptops",
+      "images": ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Logitech MX Brio 4K",
+      "slug": "logitech-mx-brio-4k",
+      "description": "Webcam Logitech MX Brio 4K Ultra HD com HDR, correção de luz automática, microfone direcional e montagem versátil.",
+      "price": 899.90,
+      "stock": 40,
+      "category": "acessorios",
+      "images": ["https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=600"],
+      "featured": false
+    },
+    {
+      "name": "TP-Link Tapo C225",
+      "slug": "tp-link-tapo-c225",
+      "description": "Câmera de segurança TP-Link Tapo C225 com 2K QHD, visão noturna colorida, detecção de pessoa/pet, two-way audio e armazenamento local/nuvem.",
+      "price": 349.90,
+      "stock": 50,
+      "category": "casa-inteligente",
+      "images": ["https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Kingston FURY Renegade 2TB",
+      "slug": "kingston-fury-renegade-2tb",
+      "description": "SSD Kingston FURY Renegade 2TB PCIe Gen4 NVMe, 7300MB/s leitura, 7000MB/s escrita, heatsink graphene e 5 anos garantia.",
+      "price": 1199.90,
+      "stock": 30,
+      "category": "armazenamento",
+      "images": ["https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600"],
+      "featured": false
+    },
+    {
+      "name": "Razer Huntsman V3 Pro",
+      "slug": "razer-huntsman-v3-pro",
+      "description": "Teclado mecânico Razer Huntsman V3 Pro com switches ópticos de 2ª geração, debounce zero, wrist rest magnético e RGB Chroma.",
+      "price": 1499.90,
+      "stock": 25,
+      "category": "gaming",
+      "images": ["https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600"],
+      "featured": false
+    }
+  ]
+}

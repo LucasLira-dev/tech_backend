@@ -3,9 +3,17 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from '@thallesp/nestjs-better-auth';
 import { auth } from './auth/auth';
+import { ProductsModule } from './products/products.module';
+import { CartModule } from './cart/cart.module';
+import { WishListModule } from './wish-list/wish-list.module';
 
 @Module({
-  imports: [AuthModule.forRoot({ auth })],
+  imports: [
+    AuthModule.forRoot({ auth }),
+    ProductsModule,
+    CartModule,
+    WishListModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

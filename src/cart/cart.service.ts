@@ -61,6 +61,10 @@ export class CartService {
   async increaseQuantity(updateCartDto: UpdateCartDto, userId: string) {
     const { productId } = updateCartDto;
 
+    if (!productId) {
+      throw new BadRequestException('Product ID is required');
+    }
+
     await this.prisma.$transaction(async (tx) => {
       const cartItem = await tx.cartItem.findFirst({
         where: {
@@ -105,11 +109,15 @@ export class CartService {
   async decreaseQuantity(updateCartDto: UpdateCartDto, userId: string) {
     const { productId } = updateCartDto;
 
+    if (!productId) throw new BadRequestException('Product ID is required');
+
     await this.prisma.$transaction(async (tx) => {
       const cartItem = await tx.cartItem.findUnique({
         where: {
-          userId,
-          productId,
+          userId_productId: {
+            userId,
+            productId,
+          },
         },
         select: { id: true, quantity: true },
       });

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { PrismaService } from 'prisma.service';
@@ -48,8 +48,31 @@ export class ProductsService {
     }));
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} product`;
+  async findOne(id: string, userId: string) {
+    const product = await this.prisma.product.findUnique({
+      where: { id },
+      include: {
+        category: true,
+      },
+    });
+
+    if (!product) {
+      throw new NotFoundException(`Product with ID ${id} not found`);
+    }
+
+    const isInCart = await this.prisma.cartItem.findFirst({
+      where: { userId, productId: id },
+    });
+
+    const isFavorite = await this.prisma.wishlistItem.findFirst({
+      where: { userId, productId: id },
+    });
+
+    return {
+      ...product,
+      isInCart: !!isInCart,
+      isFavorite: !!isFavorite,
+    };
   }
 
   update(id: number, updateProductDto: UpdateProductDto) {

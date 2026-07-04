@@ -81,17 +81,17 @@ export class CartService {
           },
         },
       });
-    
+
       if (!cartItem) {
         throw new BadRequestException('Product is not in the cart');
       }
-    
+
       if (cartItem.quantity >= cartItem.product.stock) {
         throw new BadRequestException(
           'Cannot increase quantity beyond available stock',
         );
       }
-    
+
       await tx.cartItem.update({
         where: {
           id: cartItem.id,
@@ -103,7 +103,6 @@ export class CartService {
         },
       });
     });
-
   }
 
   async decreaseQuantity(updateCartDto: UpdateCartDto, userId: string) {
@@ -122,7 +121,8 @@ export class CartService {
         select: { id: true, quantity: true },
       });
 
-      if (!cartItem) throw new BadRequestException('Product is not in the cart.');
+      if (!cartItem)
+        throw new BadRequestException('Product is not in the cart.');
 
       if (cartItem.quantity <= 1) {
         await tx.cartItem.delete({

@@ -44,6 +44,11 @@ export const auth = betterAuth({
       input: false,
     },
   },
+  user: {
+    deleteUser: {
+      enabled: true,
+    },
+  },
   trustedOrigins: [frontendUrl],
   advanced: {
     defaultCookieAttributes: {

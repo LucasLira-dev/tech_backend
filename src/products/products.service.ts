@@ -7,8 +7,14 @@ import { PrismaService } from 'prisma.service';
 export class ProductsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  create(createProductDto: CreateProductDto) {
-    return 'This action adds a new product';
+  async create(createProductDto: CreateProductDto) {
+    const product = await this.prisma.product.create({
+      data: {
+        ...createProductDto,
+      },
+    });
+
+    return product;
   }
 
   async findAll(userId?: string) {
@@ -75,11 +81,38 @@ export class ProductsService {
     };
   }
 
-  update(id: number, updateProductDto: UpdateProductDto) {
-    return `This action updates a #${id} product`;
+  async updateProduct(id: string, updateProductDto: UpdateProductDto) {
+    const product = await this.prisma.product.findFirst({
+      where: { id },
+    });
+
+    if (!product) {
+      throw new NotFoundException(`Product with ID ${id} not found`);
+    }
+
+    const updatedProduct = await this.prisma.product.update({
+      where: { id },
+      data: {
+        ...updateProductDto,
+      },
+    });
+
+    return updatedProduct;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} product`;
+  async remove(id: string) {
+    const product = await this.prisma.product.findFirst({
+      where: { id },
+    });
+
+    if (!product) {
+      throw new NotFoundException(`Product with ID ${id} not found`);
+    }
+
+    await this.prisma.product.delete({
+      where: { id },
+    });
+
+    return { message: `Product with ID ${id} has been deleted` };
   }
 }

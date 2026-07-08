@@ -12,7 +12,7 @@ import type { Request } from 'express';
 import { StripeService } from './stripe.service';
 import { CreateCheckoutDto } from './dto/create-checkout.dto';
 import {
-  Public,
+  AllowAnonymous,
   Session,
   type UserSession,
 } from '@thallesp/nestjs-better-auth';
@@ -32,7 +32,7 @@ export class StripeController {
     );
   }
 
-  @Public()
+  @AllowAnonymous()
   @Post('webhook')
   @HttpCode(HttpStatus.OK)
   async handleWebhook(

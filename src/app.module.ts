@@ -8,6 +8,7 @@ import { CartModule } from './cart/cart.module';
 import { WishListModule } from './wish-list/wish-list.module';
 import { CategoriesModule } from './categories/categories.module';
 import { StripeModule } from './stripe/stripe.module';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { StripeModule } from './stripe/stripe.module';
     WishListModule,
     CategoriesModule,
     StripeModule,
+    OrdersModule,
   ],
   controllers: [AppController],
   providers: [AppService],

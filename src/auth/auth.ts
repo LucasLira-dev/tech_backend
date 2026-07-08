@@ -8,7 +8,6 @@ import 'dotenv/config';
 
 type Role = 'admin' | 'client';
 
-// Configurar pool de conexões para Neon
 const connectionString = process.env.DATABASE_URL;
 
 if (!connectionString) {

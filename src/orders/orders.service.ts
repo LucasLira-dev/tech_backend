@@ -30,6 +30,26 @@ export class OrdersService {
     });
   }
 
+  async findMyOrders(userId: string) {
+    return this.prisma.order.findMany({
+      where: { userId },
+      include: {
+        items: {
+          include: {
+            product: {
+              select: {
+                id: true,
+                name: true,
+                images: true,
+                price: true,
+              },
+            },
+          },
+        },
+      },
+    })
+  }
+
   async updateStatus(id: string, status: UpdateOrderDto['status']) {
     const order = await this.prisma.order.findUnique({
       where: { id },

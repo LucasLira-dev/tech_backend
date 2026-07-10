@@ -15,9 +15,7 @@ export class OrdersController {
   }
 
   @Get('myOrders')
-  findMyOrders(
-    @Session() session: UserSession,
-  ) {
+  findMyOrders(@Session() session: UserSession) {
     return this.ordersService.findMyOrders(session.user.id);
   }
 

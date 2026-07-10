@@ -2,8 +2,7 @@ import { betterAuth } from 'better-auth';
 import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { admin } from 'better-auth/plugins';
 import { PrismaClient } from '@prisma/client';
-import { PrismaPg } from '@prisma/adapter-pg';
-import { Pool } from 'pg';
+import { PrismaNeon } from '@prisma/adapter-neon';
 import 'dotenv/config';
 
 type Role = 'admin' | 'client';
@@ -21,10 +20,7 @@ if (!process.env.FRONTEND_URL) {
 const frontendUrl = process.env.FRONTEND_URL.replace(/\/$/, '');
 const isHttpsFrontend = frontendUrl.startsWith('https://');
 
-const pool = new Pool({ connectionString });
-
-// Criar adapter do Prisma com driver Neon
-const adapter = new PrismaPg(pool);
+const adapter = new PrismaNeon({ connectionString });
 const prisma = new PrismaClient({ adapter });
 
 export const auth = betterAuth({

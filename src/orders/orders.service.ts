@@ -47,7 +47,7 @@ export class OrdersService {
           },
         },
       },
-    })
+    });
   }
 
   async updateStatus(id: string, status: UpdateOrderDto['status']) {

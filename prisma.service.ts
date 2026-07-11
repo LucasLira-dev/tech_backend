@@ -1,5 +1,5 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
-import { PrismaNeon } from '@prisma/adapter-neon';
+import { PrismaNeonHttp } from '@prisma/adapter-neon';
 import { PrismaClient } from '@prisma/client';
 import 'dotenv/config';
 
@@ -12,7 +12,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
       throw new Error('DATABASE_URL environment variable is not defined.');
     }
 
-    const adapter = new PrismaNeon({ connectionString });
+    const adapter = new PrismaNeonHttp(connectionString, {});
     super({ adapter });
   }
   async onModuleInit() {

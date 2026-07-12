@@ -1,98 +1,248 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# Tech Backend
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+API backend escalável construída com **NestJS 11** e **Prisma 7**, com autenticação via Better Auth e pagamentos via Stripe.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 🚀 Tecnologias
 
-## Description
+- **Framework**: [NestJS 11.0.1](https://nestjs.com/)
+- **Runtime**: [Node.js 20](https://nodejs.org/)
+- **Linguagem**: [TypeScript 5.7.3](https://www.typescriptlang.org/)
+- **ORM**: [Prisma 7.8.0](https://www.prisma.io/)
+- **Banco de Dados**: [PostgreSQL](https://www.postgresql.org/) (Neon Serverless)
+- **Autenticação**: [Better Auth](https://www.better-auth.com/)
+- **Pagamentos**: [Stripe](https://stripe.com/)
+- **Validação**: [class-validator](https://github.com/typestack/class-validator) + [class-transformer](https://github.com/typestack/class-transformer)
+- **Linting**: [ESLint 9](https://eslint.org/) + [Prettier](https://prettier.io/)
+- **Containerização**: [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 📦 Dependências Principais
 
-## Project setup
+### Produção
+- `@nestjs/common`, `@nestjs/core`, `@nestjs/platform-express` - Framework NestJS
+- `@prisma/client`, `@prisma/adapter-neon`, `@neondatabase/serverless` - ORM e driver Neon
+- `better-auth`, `@thallesp/nestjs-better-auth` - Autenticação
+- `stripe` - Integração Stripe
+- `class-validator`, `class-transformer` - Validação e transformação de DTOs
+- `reflect-metadata`, `rxjs` - Dependências do NestJS
 
-```bash
-$ npm install
-```
+### Desenvolvimento
+- `@nestjs/cli`, `@nestjs/schematics` - CLI do NestJS
+- `@nestjs/testing` - Utilitários de teste
+- `jest`, `ts-jest`, `supertest` - Testes unitários e E2E
+- `prisma` - CLI do Prisma
+- `typescript`, `ts-node`, `ts-loader` - Compilação TypeScript
+- `eslint`, `prettier` - Linting e formatação
 
-## Compile and run the project
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Run tests
+## 🛠️ Scripts Disponíveis
 
 ```bash
-# unit tests
-$ npm run test
+# Build para produção
+npm run build
 
-# e2e tests
-$ npm run test:e2e
+# Iniciar servidor
+npm run start
 
-# test coverage
-$ npm run test:cov
+# Iniciar com hot reload
+npm run start:dev
+
+# Modo debug com watch
+npm run start:debug
+
+# Iniciar produção
+npm run start:prod
+
+# Lint e auto-fix
+npm run lint
+
+# Formatar código
+npm run format
+
+# Seed do banco
+npm run seed
 ```
 
-## Deployment
+## 🎯 Recursos
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+- ✅ CRUD completo de Produtos, Categorias, Carrinho, Wishlist e Pedidos
+- ✅ Autenticação com Better Auth (email/senha + OAuth GitHub/Google)
+- ✅ Sistema de roles (admin/client) com AdminGuard
+- ✅ Integração Stripe (checkout sessions + webhooks)
+- ✅ Validação de DTOs com class-validator
+- ✅ Prisma com driver Neon Serverless
+- ✅ Docker multi-stage para produção
+- ✅ Seed com ~70+ produtos tech em 14 categorias
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+## 🚀 Como Começar
+
+### Pré-requisitos
+- Node.js 20+
+- npm
+- Docker (opcional, para banco local)
+
+### Instalação
 
 ```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
+# Clonar o repositório
+git clone https://github.com/LucasLira-dev/tech_backend.git
+
+# Entrar no diretório
+cd tech_backend
+
+# Instalar dependências
+npm install
 ```
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+### Configuração
 
-## Resources
+Crie um arquivo `.env` na raiz do projeto:
 
-Check out a few resources that may come in handy when working with NestJS:
+```env
+DATABASE_URL=
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=http://localhost:3001
+FRONTEND_URL=http://localhost:3000
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_CURRENCY=brl
+```
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+### Desenvolvimento
 
-## Support
+```bash
+# Gerar Prisma Client
+npx prisma generate
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+# Rodar migrações
+npx prisma migrate dev
 
-## Stay in touch
+# Seed do banco
+npm run seed
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+# Iniciar servidor com hot reload
+npm run start:dev
+```
 
-## License
+O servidor estará disponível em [http://localhost:3001](http://localhost:3001)
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+### Docker
+
+```bash
+# Subir banco PostgreSQL
+docker compose up -d
+
+# Build e rodar a aplicação
+docker build -t tech_backend .
+docker run -p 3001:3001 --env-file .env tech_backend
+```
+
+## 📁 Estrutura do Projeto
+
+```
+tech_backend/
+├── prisma/
+│   ├── schema.prisma          # Schema do banco de dados
+│   ├── seed.ts                # Script de seed
+│   └── products.json          # Dados de seed (~70+ produtos)
+├── src/
+│   ├── main.ts                # Ponto de entrada
+│   ├── app.module.ts          # Módulo raiz
+│   ├── auth/                  # Configuração Better Auth
+│   ├── guards/                # AdminGuard (role-based)
+│   ├── products/              # CRUD de produtos
+│   ├── categories/            # Categorias (admin)
+│   ├── cart/                  # Carrinho de compras
+│   ├── wish-list/             # Lista de desejos
+│   ├── orders/                # Pedidos
+│   └── stripe/                # Checkout e webhooks Stripe
+├── test/                      # Testes E2E
+├── Dockerfile                 # Build multi-stage
+├── compose.yml                # Docker Compose (PostgreSQL)
+├── tsconfig.json              # Configuração TypeScript
+├── nest-cli.json              # Configuração NestJS
+└── package.json               # Dependências
+```
+
+## 🗄️ Banco de Dados
+
+### Modelos
+
+| Modelo | Descrição |
+|---|---|
+| `User` | Usuários com roles (admin/client) |
+| `Session` | Sessões de autenticação |
+| `Account` | Contas OAuth vinculadas |
+| `Verification` | Verificação de email |
+| `Category` | Categorias de produtos |
+| `Product` | Produtos com preço, estoque, imagens |
+| `Order` | Pedidos com status (pending/paid/cancelled) |
+| `OrderItem` | Itens de cada pedido |
+| `CartItem` | Itens do carrinho |
+| `WishlistItem` | Itens da lista de desejos |
+
+### Seed
+
+```bash
+# Rodar seed (limpa e recria produtos/categorias)
+npm run seed
+
+# Em produção, confirmar com variável de ambiente
+SEED_RESET_CONFIRM=true npm run seed
+```
+
+## 🔐 Autenticação
+
+- **Rota base**: `/api/auth/*` ( Better Auth)
+- **Providers**: Email/senha, GitHub OAuth, Google OAuth
+- **Roles**: `admin` e `client` (padrão: `client`)
+- **Guard**: `AdminGuard` verifica role `admin` nas rotas protegidas
+
+## 📡 Endpoints
+
+### Produtos
+| Método | Rota | Auth | Descrição |
+|---|---|---|---|
+| `POST` | `/products/create` | Admin | Criar produto |
+| `GET` | `/products` | Público | Listar produtos |
+| `GET` | `/products/:id` | Sessão | Buscar produto |
+| `PATCH` | `/products/:id` | Admin | Atualizar produto |
+| `DELETE` | `/products/:id` | Admin | Deletar produto |
+
+### Carrinho
+| Método | Rota | Auth | Descrição |
+|---|---|---|---|
+| `POST` | `/cart/add` | Sessão | Adicionar item |
+| `GET` | `/cart/products` | Sessão | Listar itens |
+| `PATCH` | `/cart/increase` | Sessão | Aumentar quantidade |
+| `PATCH` | `/cart/decrease` | Sessão | Diminuir quantidade |
+| `DELETE` | `/cart/remove` | Sessão | Remover item |
+
+### Pedidos
+| Método | Rota | Auth | Descrição |
+|---|---|---|---|
+| `GET` | `/orders` | Admin | Listar todos |
+| `GET` | `/orders/myOrders` | Sessão | Meus pedidos |
+| `PATCH` | `/orders/:id/status` | Admin | Atualizar status |
+
+### Stripe
+| Método | Rota | Auth | Descrição |
+|---|---|---|---|
+| `POST` | `/stripe/checkout` | Sessão | Criar sessão checkout |
+| `POST` | `/stripe/webhook` | Público | Webhook Stripe |
+
+## 📝 Licença
+
+Este projeto está sob licença privada.
+
+## 👤 Autor
+
+**Lucas Lira**
+- GitHub: [@LucasLira-dev](https://github.com/LucasLira-dev)
+
+---
+
+Feito com ❤️ por Lucas Lira
